@@ -16,5 +16,26 @@ public class Weather {
     //  only in "main" and "description".
     //  Create these two fields and add getters and setters for both. No need
     //  to define a constructor; the default will be fine.
+    private String main;
+    private String description;
 
+    // Getter for main
+    public String getMain() {
+        return main;
+    }
+
+    // Setter for main
+    public void setMain(String main) {
+        this.main = main;
+    }
+
+    // Getter for description
+    public String getDescription() {
+        return description;
+    }
+
+    // Setter for description
+    public void setDescription(String description) {
+        this.description = description;
+    }
 }

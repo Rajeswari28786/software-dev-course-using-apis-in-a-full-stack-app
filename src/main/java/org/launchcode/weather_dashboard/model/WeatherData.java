@@ -19,5 +19,34 @@ public class WeatherData {
     //  using the Main and Weather models already defined in TODOs #1 and #2.
     //  Add getters and setters for all three fields. No need to define a
     //  constructor; the default will be fine.
+    private String name;
+    private Weather[] weather;
+    private Main main;
 
+    // Getter and setter for name
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    // Getter and setter for weather
+    public Weather[] getWeather() {
+        return weather;
+    }
+
+    public void setWeather(Weather[] weather) {
+        this.weather = weather;
+    }
+
+    // Getter and setter for main
+    public Main getMain() {
+        return main;
+    }
+
+    public void setMain(Main main) {
+        this.main = main;
+    }
 }

@@ -19,5 +19,49 @@ public class Main {
     //  to define a constructor; the default will be fine.
     //  For "feels_like", you should use camelCase for the Java variable, then
     //  add the annotation @JsonProperty("feels_like") above it to correlate them.
+    private double temp;
 
+    @JsonProperty("feels_like")
+    private double feelsLike;
+
+    private int pressure;
+
+    private int humidity;
+
+    // Getter and setter for temp
+    public double getTemp() {
+        return temp;
+    }
+
+    public void setTemp(double temp) {
+        this.temp = temp;
+    }
+
+    // Getter and setter for feelsLike
+    public double getFeelsLike() {
+        return feelsLike;
+    }
+
+    public void setFeelsLike(double feelsLike) {
+        this.feelsLike = feelsLike;
+    }
+
+    // Getter and setter for pressure
+    public int getPressure() {
+        return pressure;
+    }
+
+    public void setPressure(int pressure) {
+        this.pressure = pressure;
+    }
+
+    // Getter and setter for humidity
+    public int getHumidity() {
+        return humidity;
+    }
+
+    public void setHumidity(int humidity) {
+        this.humidity = humidity;
+    }
 }
+
